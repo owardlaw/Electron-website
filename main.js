@@ -22,7 +22,7 @@ function createWindow() {
   })
 
   // loading main window
-  win.loadURL(`http://youtube.com/`);
+  win.loadURL(`http://URL_HERE.com/`);
   win.show();
 }
 
