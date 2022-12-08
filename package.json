@@ -1,0 +1,26 @@
+{
+  "name": "electron-website",
+  "version": "0.1.0",
+  "description": "Boilerplate code for electron rendering a website.",
+  "main": "main.js",
+  "build": {
+    "appId": "0.1.0",
+    "mac": {
+      "category": "medical"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Owen Wardlaw",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.8"
+  }
+}
